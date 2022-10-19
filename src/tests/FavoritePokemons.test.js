@@ -11,7 +11,7 @@ describe('Testing FavoritePokemons component', () => {
     const text = screen.getByText('No favorite pokemon found');
     expect(text).toBeInTheDocument();
   });
-  it('Testing if shows all favorites pokémons.', () => {
+  it('Testing if shows all favorites pokémon.', () => {
     renderWithRouter(<App />);
     const details = screen.getByRole('link', { name: 'More details' });
     expect(details).toBeInTheDocument();
