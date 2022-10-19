@@ -4,7 +4,6 @@ import userEvent from '@testing-library/user-event';
 import renderWithRouter from '../renderWithRouter';
 import App from '../App';
 import pokemons from '../data';
-import { PokemonButtonsPanel } from '../components';
 
 const getNextButton = (role, name) => screen.getByRole(role, { name });
 const nameButton = 'Próximo pokémon';
